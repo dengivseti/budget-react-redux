@@ -4,7 +4,7 @@ const initialState = {
     firstStart: true
 }
 
-export default function paymentReducer(state = initialState, action) {
+export default function authReducer(state = initialState, action) {
     switch (action.type) {
         case FIRST_START:
             return {
